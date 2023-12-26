@@ -1,0 +1,167 @@
+body{
+  font-size: 13px;
+  color: #353535;
+  background: #fff;
+  font-family: 'Montserrat', 'Noto Sans KR', AppleGothic, '돋움', sans-serif;
+  font-size: 14px;
+}
+
+main{
+  padding-top: 74px;
+  margin-bottom: 330px;
+  text-align: center;
+}
+
+button{
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+main section{
+  width: 1500px;
+  margin: auto;
+}
+
+main section dt{
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 39px;
+}
+
+main section dt::after{
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 1px;
+  top:42px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #272727;
+}
+
+main section dd{
+  line-height: 19px;
+}
+
+main section p:first-child{
+  margin: 99px 0 108px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+main section li{
+  position: relative;
+  float: left;
+}
+
+main section ul:nth-child(2){
+  height: 26px;
+  margin: 0 0 2px 1134px;
+}
+
+main section ul:nth-child(2) li button{
+  display: inline-block;
+  width: 61px;
+  height: 26px;
+  transition: .5s;
+}
+
+main section ul:nth-child(2) li button:hover{
+  color: #fff;
+  background: #000;
+  transition: .5s;
+}
+
+main section ul:nth-child(3) li{
+  width: 484px;
+  margin-right: 24px;
+}
+
+main section ul:nth-child(3) li:last-child{
+  margin: 0;
+}
+
+main section ul:nth-child(3) li dl{
+  padding-top: 687px;
+  transition: .5s;
+  background:  no-repeat 0 0;
+  background-size: 484px;
+}
+
+main section ul:nth-child(3) li:first-child dl{
+  background-image: url(../images/shop_1.jpg)
+}
+
+main section ul:nth-child(3) li:nth-child(2) dl{
+  background-image: url(../images/shop_2.jpg)
+}
+
+main section ul:nth-child(3) li:nth-child(3) dl{
+  background-image: url(../images/shop_3.jpg)
+}
+
+main section ul:nth-child(3) li div{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main section ul:nth-child(3) li:hover div{
+  display: inline-block;
+}
+
+main section ul:nth-child(3) li div a{
+  float: left;
+}
+
+main section ul:nth-child(3) li div a img{
+  width: 57px;
+  transition: .5s;
+}
+
+main section ul:nth-child(3) li div a img:hover{
+  filter: opacity(80%);
+  transition: .5s;
+}
+
+main section p:last-child{
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 196px;
+}
+
+main section p:last-child a:hover{
+  color: red;
+}
+
+main section p:last-child a:first-child,
+main section p:last-child a:nth-child(2){
+  margin-right: 22px;
+}
+
+main section p:last-child a:nth-child(3){
+  display: inline-block;
+  width: 33px;
+  height: 34px;
+  padding-top: 0;
+  font-size: 14px;
+  line-height: 34px;
+  transition: .5s;
+}
+
+main section p:last-child a:nth-child(3):hover{
+  color: inherit;
+  background: #f3f5f5;
+  transition: .5s;
+}
+
+main section p:last-child a:nth-child(4),
+main section p:last-child a:nth-child(5){
+  margin-left: 22px;
+}

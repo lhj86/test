@@ -1,0 +1,60 @@
+header{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 74px;
+  font-family: 'Ubuntu', 'Noto Sans KR', AppleGothic, '돋움', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  background: #fff;
+  border-bottom: solid 2px #FAFAFA;
+}
+
+header h1{
+  float: left;
+  margin-left: 202px;
+  line-height: 74px;
+}
+
+header h1 a{
+  display: inline-block;
+  height: 50px;
+}
+
+header nav{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header nav li{
+  float: left;
+}
+
+header nav li:nth-child(2){
+  color: #acd827;
+}
+
+header nav li a{
+  padding: 0 28px;
+}
+
+header section{
+  float: right;
+  margin-right: 20px;
+}
+
+header section li{
+  float: left;
+  line-height: 74px;
+}
+
+header section li img{
+  width: 17px;
+}
+
+header section li a{
+  padding: 0 15px;
+}

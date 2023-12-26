@@ -1,0 +1,83 @@
+footer{
+  padding-bottom: 40px;
+  font-family: 'Montserrat', 'Noto Sans KR', AppleGothic, '돋움', sans-serif;
+  font-size: 13px;
+}
+
+footer div{
+  width: 1710px;
+  margin: auto;
+  color: #969696;
+}
+
+footer div:first-child{
+  border-bottom: solid 1px #EAEAEA;
+}
+
+footer div p span{
+  font-weight: bold;
+}
+
+footer div p:first-child{
+  position: relative;
+  margin: 44px 0 56px;
+  font-size: 14px;
+  color: #272727;
+}
+
+footer div p:first-child::before{
+  content: "i";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+  background: #272727;
+  border-radius: 10px;
+}
+
+footer div p:first-child::after{
+  position: absolute;
+  top: 43px;
+  left: 0;
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 4px;
+  background: #272727;
+}
+
+footer div p:nth-child(2){
+  margin-bottom: 16px;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+footer div p:nth-child(2) span{
+  margin-left: 12px;
+}
+
+footer div p:nth-child(2) span:first-child,
+footer div p:nth-child(2) span:nth-child(7){
+  margin: 0;
+}
+
+footer div > a > img{
+  margin: 26px 0 26px;
+}
+
+footer ul{
+  margin: 22px 0 16px;
+  font-size: 0;
+}
+
+footer ul li{
+  display: inline-block;
+  margin-right: 26px;
+  font-size: 11px;
+  color: #272727;
+  text-decoration: underline;
+}
